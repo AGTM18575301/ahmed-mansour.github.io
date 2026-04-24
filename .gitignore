@@ -1,34 +1,96 @@
-# Gradle files
-.gradle/
-build/
+# =========================
+# System files (Windows / macOS)
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# =========================
+# Logs
+# =========================
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# =========================
+# Build output / Generated files
+# =========================
+dist/
+build/
+out/
+coverage/
+tmp/
+*.tmp
+*.swp
 
-# IntelliJ
-*.iml
+# =========================
+# Node.js / Next.js
+# =========================
+node_modules/
+.next/
+.vercel/
+
+# =========================
+# Environment variables / Secrets
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Python cache / virtual env
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# LaTeX build files
+# =========================
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# =========================
+# Rust / Cargo
+# =========================
+target/
+Cargo.lock
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.sublime-workspace
+*.sublime-project
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# =========================
+# Miscellaneous
+# =========================
+*.bak
+*.old
+*.orig
+*.rej
